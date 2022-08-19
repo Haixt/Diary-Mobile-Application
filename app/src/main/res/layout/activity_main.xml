@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+  <TextView
+      android:id="@+id/toptext"
+      android:layout_width="342dp"
+      android:layout_height="78dp"
+      android:layout_marginStart="122dp"
+      android:layout_marginTop="136dp"
+      android:layout_marginEnd="231dp"
+      android:layout_marginBottom="576dp"
+      android:text="WELCOME"
+      android:textAlignment="center"
+      android:textSize="60sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.309"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.593" />
+
+  <EditText
+      android:id="@+id/Name"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="73dp"
+      android:layout_marginTop="60dp"
+      android:layout_marginEnd="128dp"
+      android:layout_marginBottom="446dp"
+      android:ems="10"
+      android:hint="Name"
+      android:inputType="textPersonName"
+      android:minHeight="48dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/toptext" />
+
+  <EditText
+      android:id="@+id/UserID"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="74dp"
+      android:layout_marginTop="20dp"
+      android:layout_marginEnd="127dp"
+      android:layout_marginBottom="354dp"
+      android:ems="10"
+      android:hint="User ID"
+      android:inputType="textShortMessage"
+      android:minHeight="48dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/Name" />
+
+  <EditText
+      android:id="@+id/Age"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="77dp"
+      android:layout_marginTop="24dp"
+      android:layout_marginEnd="124dp"
+      android:layout_marginBottom="285dp"
+      android:ems="10"
+      android:hint="Address"
+      android:inputType="textLongMessage"
+      android:minHeight="48dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/UserID" />
+
+  <EditText
+      android:id="@+id/Contact"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="78dp"
+      android:layout_marginTop="20dp"
+      android:layout_marginEnd="123dp"
+      android:ems="10"
+      android:hint="Contact"
+      android:inputType="number"
+      android:minHeight="48dp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/Age" />
+
+  <Button
+      android:id="@+id/button"
+      android:layout_width="wrap_content"
+      android:layout_height="0dp"
+      android:layout_marginStart="137dp"
+      android:layout_marginEnd="184dp"
+      android:layout_marginBottom="149dp"
+      android:backgroundTint="@color/purple_200"
+      android:text="Submit"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent" />
+  </androidx.constraintlayout.widget.ConstraintLayout>

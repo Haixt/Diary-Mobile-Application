@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu">
+
+  <Button
+      android:id="@+id/addBtn"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="47dp"
+      android:layout_marginTop="187dp"
+      android:backgroundTint="@color/purple_200"
+      android:text="Add User"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <Button
+      android:id="@+id/deleteBtn"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="187dp"
+      android:layout_marginEnd="39dp"
+      android:backgroundTint="@color/purple_200"
+      android:text="Delete User"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <Button
+      android:id="@+id/viewBtn"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="50dp"
+      android:layout_marginBottom="309dp"
+      android:backgroundTint="@color/purple_200"
+      android:text="View User"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintStart_toStartOf="parent" />
+
+  <Button
+      android:id="@+id/updateUserBtn"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginEnd="35dp"
+      android:layout_marginBottom="310dp"
+      android:backgroundTint="@color/purple_200"
+      android:text="Update User"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent" />
+
+  <TextView
+      android:id="@+id/textView2"
+      android:layout_width="182dp"
+      android:layout_height="73dp"
+      android:layout_marginStart="135dp"
+      android:layout_marginTop="68dp"
+      android:layout_marginEnd="135dp"
+      android:text="Richard App"
+      android:textAlignment="center"
+      android:textSize="30sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.512"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <ImageView
+      android:id="@+id/imageView"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="155dp"
+      android:layout_marginEnd="148dp"
+      android:layout_marginBottom="86dp"
+      android:background="#101010"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:srcCompat="@drawable/ic_launcher_foreground" />
+  </androidx.constraintlayout.widget.ConstraintLayout>
